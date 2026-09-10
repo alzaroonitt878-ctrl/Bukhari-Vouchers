@@ -1,0 +1,39 @@
+{
+    "voucherNo": "BTT-UMR-2026-0716",
+    "pnr": "GRP EY",
+    "issueDate": "09 September 2026",
+    "package": "15 Days Umrah (Sharing)",
+    "company": {
+          "name": "Bukhari Travel & Tourism Services",
+          "tagline": "HAJJ • UMRAH • ZIYARAT • TICKETING",
+          "address": "Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi",
+          "phone": "0333-2324194",
+          "iata": "27300136"
+    },
+    "passengers": [
+          { "name": "MR. Parvez Ali", "passport": "ZK1806393", "nationality": "Pakistani", "visaType": "Umrah", "visaNo": "-" },
+          { "name": "MR. Allahando", "passport": "RK0001641", "nationality": "Pakistani", "visaType": "Umrah", "visaNo": "-" },
+          { "name": "MR. Mumtaz Ali", "passport": "UJ1855321", "nationality": "Pakistani", "visaType": "Umrah", "visaNo": "-" },
+          { "name": "MR. Ali Murtaza Shaikh", "passport": "ME5190212", "nationality": "Pakistani", "visaType": "Umrah", "visaNo": "-" },
+          { "name": "MR. Ali Haidar Barohi", "passport": "AL3947753", "nationality": "Pakistani", "visaType": "Umrah", "visaNo": "-" },
+          { "name": "MR. Imtiaz Ali", "passport": "YB1845631", "nationality": "Pakistani", "visaType": "Umrah", "visaNo": "-" }
+    ],
+    "flights": [
+          { "sector": "Karachi(KHI) → Gassim (ELQ)", "airline": "ETIHAD — EY 627", "date": "11 Sep 2026", "departure": "08:00", "arrival": "09:05", "baggage": "1 x 20 kg", "class": "Economy" },
+          { "sector": "Jeddah (JED) → Karachi(KHI)", "airline": "ETIHAD — EY 602", "date": "26 Sep 2026", "departure": "03:10", "arrival": "06:55", "baggage": "1 x 30 kg", "class": "Economy" }
+    ],
+    "hotels": [
+          { "city": "Madinah", "hotel": "Al Eiman Royal Hotel", "checkin": "11 Sep 2026", "checkout": "18 Sep 2026", "nights": 7, "roomType": "Quad", "meals": "R/O", "distance": "Approx. 1200 m (shuttle)" },
+          { "city": "Makkah", "hotel": "Kiswa Towers Hotel", "checkin": "18 Sep 2026", "checkout": "26 Sep 2026", "nights": 8, "roomType": "Quad", "meals": "R/O", "distance": "Approx. 1000 m (shuttle)" }
+    ],
+    "transport": [
+          { "date": "11 Sep 2026", "vehicle": "Private A/C Coaster", "description": "Gassim Airport → Madinah Hotel — Meet & assist on arrival" },
+          { "date": "18 Sep 2026", "vehicle": "Private A/C Coaster", "description": "Madinah → Makkah (with Ziyarat) — Ziyarat of Madinah included" },
+          { "date": "26 Sep 2026", "vehicle": "Private A/C Coaster", "description": "Makkah Hotel → Jeddah Airport — Airport Drop off" }
+    ],
+    "emergency": {
+          "pakistan": "Bukhari Travel & Tourism Services — Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi | Tel: 0333-2324194",
+          "saudi": "Mr. Javed Fazle Rabbi — Available 24/7 in Makkah & Madinah | Mobile / WhatsApp: +966 54 190 2152"
+    },
+    "specialInstructions": ""
+}
