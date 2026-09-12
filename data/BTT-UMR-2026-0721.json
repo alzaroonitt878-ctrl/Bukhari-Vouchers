@@ -1,0 +1,34 @@
+{
+    "voucherNo": "BTT-UMR-2026-0721",
+    "pnr": "J25X0P",
+    "issueDate": "11 September 2026",
+    "package": "15 Days Umrah (Sharing)",
+    "company": {
+          "name": "Bukhari Travel & Tourism Services",
+          "tagline": "HAJJ • UMRAH • ZIYARAT • TICKETING",
+          "address": "Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi",
+          "phone": "0333-2324194",
+          "iata": "27300136"
+    },
+    "passengers": [
+          { "name": "Mr. Khalid Hussain", "passport": "FK5191943", "nationality": "Pakistani", "visaType": "Umrah", "visaNo": "6173138609" }
+    ],
+    "flights": [
+          { "sector": "Karachi(KHI) → Madinah (MED)", "airline": "ETIHAD — EY 633", "date": "13 Sep 2026", "departure": "14:35", "arrival": "16:10", "baggage": "NIL", "class": "Economy" },
+          { "sector": "Jeddah (JED) → Karachi(KHI)", "airline": "ETIHAD — EY 602", "date": "27 Sep 2026", "departure": "03:10", "arrival": "06:55", "baggage": "1 x 20 kg", "class": "Economy" }
+    ],
+    "hotels": [
+          { "city": "Madina", "hotel": "Al Eiman Royal Hotel", "checkin": "13 Sep 2026", "checkout": "20 Sep 2026", "nights": 7, "roomType": "Quad", "meals": "R/O", "distance": "Approx. 1200 m (shuttle)" },
+          { "city": "Makkah", "hotel": "Kiswa Towers Hotel", "checkin": "20 Sep 2026", "checkout": "26 Sep 2026", "nights": 7, "roomType": "Quad", "meals": "R/O", "distance": "Approx. 1000 m (shuttle)" }
+    ],
+    "transport": [
+          { "date": "13 Sep 2026", "vehicle": "Sharing A/C Coaster", "description": "Madinah Airport → Madinah Hotel — Meet & assist on arrival" },
+          { "date": "20 Sep 2026", "vehicle": "Sharing A/C Coaster", "description": "Madinah Hotel → Makkah Hotel (with Ziyarat) — Ziyarat of Madinah & Makkah included" },
+          { "date": "26 Sep 2026", "vehicle": "Sharing A/C Coaster", "description": "Makkah Hotel → Jeddah Airport — Airport Drop Off" }
+    ],
+    "emergency": {
+          "pakistan": "Bukhari Travel & Tourism Services — Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi | Tel: 0333-2324194",
+          "saudi": "Mr. Javed Fazle Rabbi — Available 24/7 in Makkah & Madinah | Mobile / WhatsApp: +966 54 190 2152"
+    },
+    "specialInstructions": ""
+}
