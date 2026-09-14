@@ -1,0 +1,114 @@
+{
+  "voucherNo": "BTT-UMR-2026-0722",
+  "pnr": "8JW6DL",
+  "issueDate": "09 September 2026",
+  "package": "10 Days Umrah (Privt.)",
+  "company": {
+    "name": "Bukhari Travel & Tourism Services",
+    "tagline": "HAJJ \u2022 UMRAH \u2022 ZIYARAT \u2022 TICKETING",
+    "address": "Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi",
+    "phone": "0333-2324194",
+    "iata": "27300136"
+  },
+  "passengers": [
+    {
+      "name": "Farrukh Ali Alvi",
+      "passport": "DM1867491",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "Zarlish Farrukh",
+      "passport": "AJ4220342",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "Izhaan Ali Alvi",
+      "passport": "CC1868551",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "Manha Ali Alvi",
+      "passport": "JK1867391",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "Mirha Ali Alvi",
+      "passport": "ZS1855971",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    }
+  ],
+  "flights": [
+    {
+      "sector": "Karachi(KHI) \u2192 Jeddah (JED)",
+      "airline": "SAUDI \u2014 SV 705",
+      "date": "12 Sep 2026",
+      "departure": "03:15",
+      "arrival": "05:10",
+      "baggage": "9 x 23 kg",
+      "class": "Economy"
+    },
+    {
+      "sector": "Madinah (MED) \u2192 Karachi(KHI)",
+      "airline": "SAUDI \u2014 SV 1466",
+      "date": "22 Sep 2026",
+      "departure": "02:25",
+      "arrival": "04:00",
+      "baggage": "5 x 23 kg",
+      "class": "Economy"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Makkah",
+      "hotel": "Fairmont Makkah",
+      "checkin": "12 Sep 2026",
+      "checkout": "17 Sep 2026",
+      "nights": 5,
+      "roomType": "TRPL",
+      "meals": "BB",
+      "distance": "595963146314"
+    },
+    {
+      "city": "Madina",
+      "hotel": "Dallah Taiba",
+      "checkin": "17 Sep 2026",
+      "checkout": "21 Sep 2026",
+      "nights": 4,
+      "roomType": "TRPL",
+      "meals": "R/O",
+      "distance": "9680574"
+    }
+  ],
+  "transport": [
+    {
+      "date": "12 Sep 2026",
+      "vehicle": "GMC (GDS-8006)",
+      "description": "Jeddah Airport \u2192 Makkah Hotel \u2014 D/NAME: Muhammad irfan. +966568666295"
+    },
+    {
+      "date": "17 Sep 2026",
+      "vehicle": "GMC",
+      "description": "Makkah Hotel \u2192 Madinah Hotel \u2014 PRIVATE TRANSFER DRIVER WILL CONTACT"
+    },
+    {
+      "date": "21 Sep 2026",
+      "vehicle": "GMC",
+      "description": "Madinah Hotel  \u2192 Madinah Airport \u2014 PRIVATE TRANSFER DRIVER WILL CONTACT"
+    }
+  ],
+  "emergency": {
+    "pakistan": "Bukhari Travel & Tourism Services \u2014 Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi   |   Tel: 0321-2031650",
+    "saudi": "Mr. Javed Fazle Rabbi \u2014 Available 24/7 in Makkah & Madinah   |   Mobile / WhatsApp: +966 54 190 2152"
+  },
+  "specialInstructions": ""
+}
