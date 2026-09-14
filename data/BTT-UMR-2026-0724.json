@@ -1,0 +1,107 @@
+{
+  "voucherNo": "BTT-UMR-2026-0724",
+  "pnr": "E3856Y",
+  "issueDate": "09 September 2026",
+  "package": "14 Days Umrah (Sharing)",
+  "company": {
+    "name": "Bukhari Travel & Tourism Services",
+    "tagline": "HAJJ \u2022 UMRAH \u2022 ZIYARAT \u2022 TICKETING",
+    "address": "Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi",
+    "phone": "0333-2324194",
+    "iata": "27300136"
+  },
+  "passengers": [
+    {
+      "name": "Mrs. Sughran Khatoon",
+      "passport": "AE4179183",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "Ms. Bayan Sabir",
+      "passport": "RZ3116642",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "Mstr. Salman Sabir",
+      "passport": "KP5759262",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "Miss. Javeria Sabir",
+      "passport": "AD8622482",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    }
+  ],
+  "flights": [
+    {
+      "sector": "Karachi(KHI) \u2192 Madinah (MED)",
+      "airline": "Etihad \u2014 EY 631",
+      "date": "12 Sep 2026",
+      "departure": "08:45",
+      "arrival": "10:20",
+      "baggage": "1 x 25 kg",
+      "class": "Economy"
+    },
+    {
+      "sector": "Jeddah (JED) \u2192 Karachi(KHI)",
+      "airline": "Etihad \u2014 EY 602",
+      "date": "25 Sep 2026",
+      "departure": "03:10",
+      "arrival": "06:55",
+      "baggage": "1 x 25 kg",
+      "class": "Economy"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Madina",
+      "hotel": "Al Eiman Royal Hotel",
+      "checkin": "12 Sep 2026",
+      "checkout": "19 Sep 2026",
+      "nights": 7,
+      "roomType": "Quad",
+      "meals": "R/O",
+      "distance": "Approx. 1000 m (shuttle)"
+    },
+    {
+      "city": "Makkah",
+      "hotel": "Kiswa Towers",
+      "checkin": "19 Sep 2026",
+      "checkout": "25 Sep 2026",
+      "nights": 6,
+      "roomType": "Quad",
+      "meals": "R/O",
+      "distance": "Approx. 1200 m (shuttle)"
+    }
+  ],
+  "transport": [
+    {
+      "date": "12 Sep 2026",
+      "vehicle": "Sharing A/C Coaster",
+      "description": "Madina Airport \u2192 Madina Hotel \u2014 Meet & assist on arrival"
+    },
+    {
+      "date": "19 Sep 2026",
+      "vehicle": "Sharing A/C Coaster",
+      "description": "Madina Hotel \u2192 Makkah Hotel (with Ziyarat) \u2014 Ziyarat of Madina included"
+    },
+    {
+      "date": "25 Sep 2026",
+      "vehicle": "Sharing A/C Coaster",
+      "description": "Makkah Hotel  \u2192 Jeddah Airport \u2014 Airport Drop Off"
+    }
+  ],
+  "emergency": {
+    "pakistan": "Bukhari Travel & Tourism Services \u2014 Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi   |   Tel: 0333-2324194",
+    "saudi": "Mr. Javed Fazle Rabbi \u2014 Available 24/7 in Makkah & Madinah   |   Mobile / WhatsApp: +966 54 190 2152"
+  },
+  "specialInstructions": ""
+}
