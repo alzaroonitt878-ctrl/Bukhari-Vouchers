@@ -1,0 +1,85 @@
+{
+  "voucherNo": "BTT-UMR-2026-0728",
+  "pnr": "SV",
+  "issueDate": "16 September 2026",
+  "package": "7 Days Umrah (Privt.)",
+  "company": {
+    "name": "Bukhari Travel & Tourism Services",
+    "tagline": "HAJJ \u2022 UMRAH \u2022 ZIYARAT \u2022 TICKETING",
+    "address": "Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi",
+    "phone": "0333-2324194",
+    "iata": "27300136"
+  },
+  "passengers": [
+    {
+      "name": "Amjad Ali",
+      "passport": "KE1811554",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "Abdul Qayyum",
+      "passport": "AT4152475",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "Sabeel jalil",
+      "passport": "BS8704881",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    }
+  ],
+  "flights": [
+    {
+      "sector": "Karachi(KHI) \u2192 Jeddah (JED)",
+      "airline": "SAUDI \u2014 SV 705",
+      "date": "19 Sep 2026",
+      "departure": "03:15",
+      "arrival": "05:10",
+      "baggage": "1 x 23kg",
+      "class": "Economy"
+    },
+    {
+      "sector": "Jeddah (JED) \u2192 Karachi(KHI)",
+      "airline": "SAUDI \u2014 SV 700",
+      "date": "26 Sep 2026",
+      "departure": "01:30",
+      "arrival": "07:30",
+      "baggage": "1 x 23 kg",
+      "class": "Economy"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Makkah",
+      "hotel": "Fairmont Makkah",
+      "checkin": "19 Sep 2026",
+      "checkout": "25 Sep 2026",
+      "nights": 6,
+      "roomType": "TRPL",
+      "meals": "BB",
+      "distance": "595963146314"
+    }
+  ],
+  "transport": [
+    {
+      "date": "19 Sep 2026",
+      "vehicle": "Private Car",
+      "description": "Jeddah Airport \u2192 Makkah Hotel \u2014 Meet and assist at airport"
+    },
+    {
+      "date": "25 Sep 2026",
+      "vehicle": "Private car",
+      "description": "Makkah Hotel  \u2192 Jeddah Airport \u2014 Airport Drop Off"
+    }
+  ],
+  "emergency": {
+    "pakistan": "Bukhari Travel & Tourism Services \u2014 Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi   |   Tel: 0321-2031650",
+    "saudi": "Mr. Javed Fazle Rabbi \u2014 Available 24/7 in Makkah & Madinah   |   Mobile / WhatsApp: +966 54 190 2152"
+  },
+  "specialInstructions": ""
+}
