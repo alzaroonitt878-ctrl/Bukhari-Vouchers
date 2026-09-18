@@ -1,0 +1,143 @@
+{
+  "voucherNo": "BTT-UMR-2026-0738",
+  "pnr": "UDMRNY",
+  "issueDate": "18 September 2026",
+  "package": "17 Days Umrah (Sharing)",
+  "company": {
+    "name": "Bukhari Travel & Tourism Services",
+    "tagline": "HAJJ \u2022 UMRAH \u2022 ZIYARAT \u2022 TICKETING",
+    "address": "Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi",
+    "phone": "0333-2324194",
+    "iata": "27300136"
+  },
+  "passengers": [
+    {
+      "name": "NASEER AHMAD SHAHANI",
+      "passport": "SM5142082",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6173413624"
+    },
+    {
+      "name": "SONIA MUHAMMAD SHARIF",
+      "passport": "DB5798501",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6173413626"
+    },
+    {
+      "name": "ZARINA SHAHANI",
+      "passport": "FH5900931",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6173413630"
+    },
+    {
+      "name": "AISHA KHAMEESO",
+      "passport": "XM1855131",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6173413628"
+    },
+    {
+      "name": "SHAHZADI SHAHANI",
+      "passport": "VU5165331",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6173413629"
+    },
+    {
+      "name": "HIDAYAT KHATOON",
+      "passport": "MA4174101",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6173413627"
+    },
+    {
+      "name": "KHATOON AACHAR KHAN",
+      "passport": "KM4172561",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6173372350"
+    }
+  ],
+  "flights": [
+    {
+      "sector": "Karachi(KHI) \u2192 Jeddah (JED)",
+      "airline": "AIRBLUE \u2014 PA 170",
+      "date": "21 Sep 2026",
+      "departure": "03:30",
+      "arrival": "06:05",
+      "baggage": "1 x 20 kg",
+      "class": "Economy"
+    },
+    {
+      "sector": "Jeddah (JED) \u2192 Karachi(KHI)",
+      "airline": "AIRBLUE\u2014  PA 171",
+      "date": "07 Oct 2026",
+      "departure": "07:15",
+      "arrival": "13:45",
+      "baggage": "1 x 20 kg",
+      "class": "Economy"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Makkah",
+      "hotel": "Kiswa Towers Hotel",
+      "checkin": "21 Sep 2026",
+      "checkout": "25 Sep 2026",
+      "nights": 4,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "distance": "Approx. 1000 m (shuttle)"
+    },
+    {
+      "city": "Madinah",
+      "hotel": "Al Eiman Royal Hotel",
+      "checkin": "25 Sep 2026",
+      "checkout": "02 Oct 2026",
+      "nights": 7,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "distance": "Approx. 1200 m (shuttle)"
+    },
+    {
+      "city": "Makkah",
+      "hotel": "Kiswa Towers Hotel",
+      "checkin": "02 Oct 2026",
+      "checkout": "07 Oct 2026",
+      "nights": 5,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "distance": "Approx. 1000 m (shuttle)"
+    }
+  ],
+  "transport": [
+    {
+      "date": "21 Sep 2026",
+      "vehicle": "Sharing A/C Coaster",
+      "description": "Jeddah Airport \u2192 Makkah Hotel \u2014 Meet & assist on arrival"
+    },
+    {
+      "date": "25 Sep 2026",
+      "vehicle": "Sharing A/C Coaster",
+      "description": "Makkah Hotel \u2192 Madinah Hotel (with Ziyarat) \u2014 Ziyarat of Makkah included"
+    },
+    {
+      "date": "02 Oct 2026",
+      "vehicle": "Sharing A/C Coaster",
+      "description": "Madinah Hotel \u2192 Makkah Hotel \u2014 Ziyarat of Madinah included"
+    },
+    {
+      "date": "07 Oct 2026",
+      "vehicle": "Sharing A/C Coaster",
+      "description": "Makkah Hotel \u2192 Jeddah Airport \u2014 Airport Drop Off"
+    }
+  ],
+  "emergency": {
+    "pakistan": "Bukhari Travel & Tourism Services \u2014 Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi   |   Tel: 0333-2324194",
+    "saudi": ""
+  },
+  "specialInstructions": ""
+}
