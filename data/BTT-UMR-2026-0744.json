@@ -1,0 +1,103 @@
+{
+  "voucherNo": "BTT-UMR-2026-0744",
+  "pnr": "",
+  "issueDate": "23 September 2026",
+  "package": "10 Days Umrah (Privt.)",
+  "company": {
+    "name": "Bukhari Travel & Tourism Services",
+    "tagline": "HAJJ • UMRAH • ZIYARAT • TICKETING",
+    "address": "Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi",
+    "phone": "0321-2031650",
+    "iata": "27300136"
+  },
+  "passengers": [
+    {
+      "name": "MUHAMMAD RAZA",
+      "passport": "BU*****53",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6174398876"
+    },
+    {
+      "name": "IQRA RAZA",
+      "passport": "CJ*****89",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6174398877"
+    }
+  ],
+  "flights": [
+    {
+      "sector": "Karachi (KHI) → Jeddah (JED)",
+      "airline": "SAUDIA — SV 701",
+      "date": "24 Sep 2026",
+      "departure": "03:15",
+      "arrival": "05:15",
+      "baggage": "23kg",
+      "class": "Economy"
+    },
+    {
+      "sector": "Madinah (MED) → Karachi (KHI)",
+      "airline": "FLYNAS — XY 877",
+      "date": "04 Oct 2026",
+      "departure": "02:30",
+      "arrival": "08:30",
+      "baggage": "30kg",
+      "class": "Economy"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Makkah",
+      "hotel": "DAR HASSAN",
+      "checkin": "24 Sep 2026",
+      "checkout": "29 Sep 2026",
+      "nights": 5,
+      "roomType": "DOUBLE",
+      "meals": "BB",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    },
+    {
+      "city": "Madinah",
+      "hotel": "Al Eiman Royal",
+      "checkin": "29 Sep 2026",
+      "checkout": "03 Oct 2026",
+      "nights": 4,
+      "roomType": "DOUBLE",
+      "meals": "BB",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    }
+  ],
+  "transport": [
+    {
+      "route": "Jeddah Airport → Makkah Hotel",
+      "date": "24 Sep 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Meet and assist at airport",
+      "description": "Jeddah Airport → Makkah Hotel — Meet and assist at airport"
+    },
+    {
+      "route": "Makkah Hotel → Madinah Hotel",
+      "date": "29 Sep 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Including Ziyarat of Makkah",
+      "description": "Makkah Hotel → Madinah Hotel — Including Ziyarat of Makkah"
+    },
+    {
+      "route": "Madinah Hotel → Madinah Airport",
+      "date": "03 Oct 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Airport Drop Off",
+      "description": "Madinah Hotel → Madinah Airport — Airport Drop Off"
+    }
+  ],
+  "emergency": {
+    "pakistan": "Bukhari Travels & Tours — Tel: 0321-2031650",
+    "saudi": "Mr. Javed Fazle Rabbi, +966 54 190 2152"
+  },
+  "specialInstructions": ""
+}
