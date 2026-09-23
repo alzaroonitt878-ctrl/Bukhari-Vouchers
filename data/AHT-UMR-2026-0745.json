@@ -1,0 +1,96 @@
+{
+  "voucherNo": "AHT-UMR-2026-0745",
+  "pnr": "JDDYUU",
+  "issueDate": "23 September 2026",
+  "package": "13 Days Umrah (Privt.)",
+  "company": {
+    "name": "Allahoo Travels & Tours",
+    "tagline": "HAJJ • UMRAH • ZIYARAT • TICKETING",
+    "address": "",
+    "phone": "0334-7789786",
+    "iata": ""
+  },
+  "passengers": [
+    {
+      "name": "AKBAR KHAN",
+      "passport": "GT*****11",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "617562933"
+    }
+  ],
+  "flights": [
+    {
+      "sector": "Karachi (KHI) → Jeddah (JED)",
+      "airline": "ETIHAD — EY 211",
+      "date": "29 Sep 2026",
+      "departure": "20:50",
+      "arrival": "00:30",
+      "baggage": "25kg",
+      "class": "Economy"
+    },
+    {
+      "sector": "Madinah (MED) → Karachi (KHI)",
+      "airline": "ETIHAD — EY 212",
+      "date": "12 Oct 2026",
+      "departure": "01:30",
+      "arrival": "04:30",
+      "baggage": "30kg",
+      "class": "Economy"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Makkah",
+      "hotel": "DAR HASSAN",
+      "checkin": "29 Sep 2026",
+      "checkout": "05 Oct 2026",
+      "nights": 6,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    },
+    {
+      "city": "Madinah",
+      "hotel": "Al Eiman Royal",
+      "checkin": "05 Oct 2026",
+      "checkout": "11 Oct 2026",
+      "nights": 6,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    }
+  ],
+  "transport": [
+    {
+      "route": "Jeddah Airport → Makkah Hotel",
+      "date": "29 Sep 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Meet and assist at airport",
+      "description": "Jeddah Airport → Makkah Hotel — Meet and assist at airport"
+    },
+    {
+      "route": "Makkah Hotel → Madinah Hotel",
+      "date": "05 Oct 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Including Ziyarat of Makkah/Madinah",
+      "description": "Makkah Hotel → Madinah Hotel — Including Ziyarat of Makkah/Madinah"
+    },
+    {
+      "route": "Madinah Hotel → Madinah Airport",
+      "date": "11 Oct 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Airport Drop Off",
+      "description": "Madinah Hotel → Madinah Airport — Airport Drop Off"
+    }
+  ],
+  "emergency": {
+    "pakistan": "Allahoo Travels & Tours — Tel: 0334-7789786",
+    "saudi": "Mr. Javed Fazle Rabbi, +966 54 190 2152"
+  },
+  "specialInstructions": ""
+}
