@@ -1,0 +1,115 @@
+{
+  "voucherNo": "BTT-UMR-2026-0743",
+  "pnr": "OV",
+  "issueDate": "22 September 2026",
+  "package": "30 Days Umrah (Privt.)",
+  "company": {
+    "name": "Bukhari Travel & Tourism Services",
+    "tagline": "HAJJ \u2022 UMRAH \u2022 ZIYARAT \u2022 TICKETING",
+    "address": "Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi",
+    "phone": "0333-2324194",
+    "iata": "27300136"
+  },
+  "passengers": [
+    {
+      "name": "KARIMAN KHATOON",
+      "passport": "JP4177812",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "SAMIR SAUD",
+      "passport": "CJ5226452",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    },
+    {
+      "name": "TURKI SAUD",
+      "passport": "HP7961931",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "-"
+    }
+  ],
+  "flights": [
+    {
+      "sector": "Karachi(KHI) \u2192 Jeddah (JED)",
+      "airline": "SAUDI AIR \u2014 SV 1045",
+      "date": "23 Sep 2026",
+      "departure": "19:00",
+      "arrival": "20:45",
+      "baggage": "1 x 23kg",
+      "class": "Economy"
+    },
+    {
+      "sector": "Jeddah (JED) \u2192 Karachi(KHI)",
+      "airline": "SAUDI AIR \u2014 SV 700",
+      "date": "23 Oct 2026",
+      "departure": "01:25",
+      "arrival": "07:30",
+      "baggage": "1 x 23 kg",
+      "class": "Economy"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Makkah",
+      "hotel": "DAR HASSAN",
+      "checkin": "23 Sep 2026",
+      "checkout": "07 Oct 2026",
+      "nights": 14,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "distance": "103302"
+    },
+    {
+      "city": "Madinah",
+      "hotel": "Al Eiman Royal",
+      "checkin": "07 Oct 2026",
+      "checkout": "14 OcT 2026",
+      "nights": 7,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "distance": "-"
+    },
+    {
+      "city": "Makkah",
+      "hotel": "DAR HASSAN",
+      "checkin": "14 Oct 2026",
+      "checkout": "22 Oct 2026",
+      "nights": 8,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "distance": "103302"
+    }
+  ],
+  "transport": [
+    {
+      "date": "23 Sep 2026",
+      "vehicle": "Shared Coaster",
+      "description": "Jeddah Airport \u2192 Makkah Hotel \u2014 Meet and assist at airport"
+    },
+    {
+      "date": "07 Oct 2026",
+      "vehicle": "Shared Coaster",
+      "description": "Makkah Hotel  \u2192 Madinah Hotel \u2014 Including Ziyarat of Makkah"
+    },
+    {
+      "date": "14 Oct 2026",
+      "vehicle": "Shared Coaster",
+      "description": "Madinah Hotel  \u2192 Makkah Hotel \u2014 Including Ziyarat Of Madinah"
+    },
+    {
+      "date": "22 Oct 2026",
+      "vehicle": "Shared Coaster",
+      "description": "Makkah Hotel  \u2192 Jeddah Airport \u2014 Airport Drop Off"
+    }
+  ],
+  "emergency": {
+    "pakistan": "Bukhari Travels & Tours \u2014   Tel: 0321-2031650",
+    "saudi": ""
+  },
+  "specialInstructions": ""
+}
