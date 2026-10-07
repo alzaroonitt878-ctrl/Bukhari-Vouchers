@@ -1,0 +1,155 @@
+{
+  "voucherNo": "AHT-UMR-2026-0760",
+  "pnr": "9GT65J/9GU5NR",
+  "issueDate": "07 October 2026",
+  "package": "22 Days Umrah (Sharing)",
+  "company": {
+    "name": "Allahoo Travels & Tours",
+    "tagline": "HAJJ • UMRAH • ZIYARAT • TICKETING",
+    "address": "",
+    "phone": "0334-7789786",
+    "iata": ""
+  },
+  "passengers": [
+    {
+      "name": "MOOMAL",
+      "passport": "SR*****31",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6174750798"
+    },
+    {
+      "name": "KANWAL",
+      "passport": "RR*****21",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6174750795"
+    },
+    {
+      "name": "WAJID ALI",
+      "passport": "NZ*****61",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6174694431"
+    },
+    {
+      "name": "SHAHZAD ALI",
+      "passport": "WK*****81",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "617494432"
+    },
+    {
+      "name": "RUKHSANA",
+      "passport": "TW*****01",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6174694453"
+    },
+    {
+      "name": "MAJID ALI",
+      "passport": "VF*****11",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": "6174694437"
+    }
+  ],
+  "flights": [
+    {
+      "sector": "Karachi (KHI) → Madinah (MED)",
+      "airline": "PIA — PK 743",
+      "date": "10 Oct 2026",
+      "departure": "20:20",
+      "arrival": "22:40",
+      "baggage": "20kg",
+      "class": "Economy"
+    },
+    {
+      "sector": "Madinah (MED) → Karachi (KHI)",
+      "airline": "PIA — PK 744",
+      "date": "25 Dec 2026",
+      "departure": "00:45",
+      "arrival": "06:35",
+      "baggage": "20kg",
+      "class": "Economy"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Madinah",
+      "hotel": "Al Eiman Royal",
+      "checkin": "10 Oct 2026",
+      "checkout": "17 Oct 2026",
+      "nights": 7,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    },
+    {
+      "city": "Makkah",
+      "hotel": "DAR HASSAN",
+      "checkin": "17 Oct 2026",
+      "checkout": "24 Oct 2026",
+      "nights": 7,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    },
+    {
+      "city": "Madinah",
+      "hotel": "Al Eiman Royal",
+      "checkin": "24 Oct 2026",
+      "checkout": "31 Oct 2026",
+      "nights": 7,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    },
+    {
+      "city": "Self",
+      "hotel": "SELF ARRANGED BY PASSENGER",
+      "checkin": "31 Oct 2026",
+      "checkout": "24 Dec 2026",
+      "nights": 54,
+      "roomType": "-",
+      "meals": "-",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    }
+  ],
+  "transport": [
+    {
+      "route": "Madinah Airport → Madinah Hotel",
+      "date": "10 Oct 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Meet and assist at airport",
+      "description": "Madinah Airport → Madinah Hotel — Meet and assist at airport"
+    },
+    {
+      "route": "Madinah Hotel → Makkah Hotel",
+      "date": "17 Oct 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Including Ziyarat of Madinah",
+      "description": "Madinah Hotel → Makkah Hotel — Including Ziyarat of Madinah"
+    },
+    {
+      "route": "Makkah Hotel → Madinah Hotel",
+      "date": "24 Oct 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Including Ziyarat of Makkah",
+      "description": "Makkah Hotel → Madinah Hotel — Including Ziyarat of Makkah"
+    }
+  ],
+  "emergency": {
+    "pakistan": "Allahoo Travels & Tours — Tel: 0334-7789786",
+    "saudi": "Mr. Javed Fazle Rabbi, +966 54 190 2152"
+  },
+  "specialInstructions": ""
+}
