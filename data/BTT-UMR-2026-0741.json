@@ -5,7 +5,7 @@
   "package": "15 Days Umrah (Privt.)",
   "company": {
     "name": "Bukhari Travel & Tourism Services",
-    "tagline": "HAJJ \u2022 UMRAH \u2022 ZIYARAT \u2022 TICKETING",
+    "tagline": "HAJJ • UMRAH • ZIYARAT • TICKETING",
     "address": "Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi",
     "phone": "0333-2324194",
     "iata": "27300136"
@@ -13,7 +13,7 @@
   "passengers": [
     {
       "name": "QASIM ALI",
-      "passport": "MV1839771",
+      "passport": "MV*****71",
       "nationality": "Pakistani",
       "visaType": "Umrah",
       "visaNo": "6174027056"
@@ -21,8 +21,8 @@
   ],
   "flights": [
     {
-      "sector": "Sialkot(SKT) \u2192 Jeddah (JED)",
-      "airline": "SALAM AIR \u2014 OV 283",
+      "sector": "Sialkot(SKT) → Jeddah (JED)",
+      "airline": "SALAM AIR — OV 283",
       "date": "20 Sep 2026",
       "departure": "08:40",
       "arrival": "11:00",
@@ -30,8 +30,8 @@
       "class": "Economy"
     },
     {
-      "sector": "Jeddah (JED) \u2192 SIALKOT(SKT)",
-      "airline": "SALAM AIR \u2014 OV 284",
+      "sector": "Jeddah (JED) → SIALKOT(SKT)",
+      "airline": "SALAM AIR — OV 284",
       "date": "04 Oct 2026",
       "departure": "12:00",
       "arrival": "16:20",
@@ -75,26 +75,26 @@
     {
       "date": "20 Sep 2026",
       "vehicle": "Shared Coaster",
-      "description": "Jeddah Airport \u2192 Makkah Hotel \u2014 Meet and assist at airport"
+      "description": "Jeddah Airport → Makkah Hotel — Meet and assist at airport"
     },
     {
       "date": "27 Sep 2026",
       "vehicle": "Shared Coaster",
-      "description": "Makkah Hotel  \u2192 Madinah Hotel \u2014 Including Ziyarat of Makkah"
+      "description": "Makkah Hotel  → Madinah Hotel — Including Ziyarat of Makkah"
     },
     {
       "date": "01 Oct 2026",
       "vehicle": "Shared Coaster",
-      "description": "Madinah Hotel  \u2192 Makkah Hotel \u2014 Including Ziyarat Of Madinah"
+      "description": "Madinah Hotel  → Makkah Hotel — Including Ziyarat Of Madinah"
     },
     {
       "date": "04 Oct 2026",
       "vehicle": "Shared Coaster",
-      "description": "Makkah Hotel  \u2192 Jeddah Airport \u2014 Airport Drop Off"
+      "description": "Makkah Hotel  → Jeddah Airport — Airport Drop Off"
     }
   ],
   "emergency": {
-    "pakistan": "Allahoo Travels & Tours \u2014   Tel: 0334-7789786",
+    "pakistan": "Allahoo Travels & Tours —   Tel: 0334-7789786",
     "saudi": ""
   },
   "specialInstructions": ""
