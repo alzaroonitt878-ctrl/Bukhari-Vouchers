@@ -2,7 +2,7 @@
   "voucherNo": "AHT-UMR-2026-0765",
   "pnr": "B5TCXS",
   "issueDate": "13 October 2026",
-  "package": "22 Days Umrah (Sharing)",
+  "package": "21 Days Umrah (Sharing)",
   "company": {
     "name": "Allahoo Travels & Tours",
     "tagline": "HAJJ • UMRAH • ZIYARAT • TICKETING",
@@ -32,7 +32,7 @@
     {
       "sector": "Jeddah (JED) → Karachi (KHI)",
       "airline": "SAUDIA — SV 700",
-      "date": "20 Nov 2026",
+      "date": "19 Nov 2026",
       "departure": "02:45",
       "arrival": "08:30",
       "baggage": "2 pc",
@@ -67,8 +67,8 @@
     {
       "city": "Makkah",
       "checkin": "12 Nov 2026",
-      "checkout": "19 Nov 2026",
-      "nights": 7,
+      "checkout": "18 Nov 2026",
+      "nights": 6,
       "hotel": "DAR HASSAN",
       "roomType": "SHARING",
       "meals": "R/O",
@@ -101,7 +101,7 @@
     },
     {
       "route": "Makkah Hotel → Jeddah Airport",
-      "date": "19 Nov 2026",
+      "date": "18 Nov 2026",
       "vehicle": "Shared Coaster",
       "remarks": "Airport Drop Off",
       "description": "Makkah Hotel → Jeddah Airport — Airport Drop Off"
