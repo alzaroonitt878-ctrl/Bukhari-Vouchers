@@ -3,311 +3,185 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Umrah Travel Voucher — Bukhari Travel & Tourism</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Umrah Travel Voucher</title>
 <style>
   :root{
-    --deep:#0b5345;
-    --deep-dark:#083c32;
-    --gold:#c69c3a;
-    --gold-light:#deba64;
-    --row:#e8f0ed;
-    --row2:#f3f7f5;
-    --line:#c7d6d0;
-    --ink:#20302b;
-    --ink-soft:#516b62;
-    --paper:#fbfaf6;
+    --green:#0E4D3E; --green-2:#13604E; --gold:#C9A13B; --gold-soft:#F6EED8;
+    --ink:#1F2421; --muted:#5E6B66; --line:#D5E0DC; --tint:#EEF4F2; --page:#E9EFED;
+    --ok:#1E7B43; --warn:#9A5B00;
   }
-  *{box-sizing:border-box;}
-  html,body{margin:0;padding:0;}
-  body{
-    background:#e9ede9;
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    color:var(--ink);
-    padding:28px 14px 60px;
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:var(--page);color:var(--ink);
+       font:15px/1.45 "Segoe UI",Roboto,Arial,"Noto Sans",sans-serif;padding:16px}
+  .sheet{max-width:860px;margin:0 auto;background:#fff;border-radius:6px;overflow:hidden;
+         box-shadow:0 1px 3px rgba(14,77,62,.18)}
+  .head{background:var(--green);color:#fff;padding:18px 20px 14px;display:flex;gap:14px;align-items:center}
+  .seal{flex:none;width:46px;height:46px;border-radius:50%;border:2px solid var(--gold);
+        display:grid;place-items:center;background:var(--green-2)}
+  .seal svg{width:24px;height:24px}
+  .co .name{font-size:19px;font-weight:700;letter-spacing:.2px}
+  .co .tag{color:#E2C46C;font-size:12px;font-weight:600;margin-top:2px}
+  .title{background:var(--gold);color:var(--green);text-align:center;font-weight:800;
+         letter-spacing:4px;font-size:14px;padding:7px 8px}
+  .status{display:flex;align-items:center;gap:10px;padding:12px 20px;background:#EEF8F1;
+          border-bottom:1px solid #CDE6D6;color:var(--ok);font-weight:600}
+  .status.past{background:#FFF6E5;border-color:#F0DDB4;color:var(--warn)}
+  .status svg{flex:none;width:20px;height:20px}
+  .meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--line);
+        border-bottom:1px solid var(--line)}
+  .meta div{background:#fff;padding:10px 20px}
+  .meta span{display:block;font-size:12px;color:var(--muted)}
+  .meta b{font-size:15px}
+  section{padding:16px 20px 4px}
+  h2{margin:0 0 8px;font-size:14px;color:var(--green);border-bottom:2px solid var(--gold);padding-bottom:5px}
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th{background:var(--tint);color:var(--green);text-align:left;font-weight:700;font-size:12.5px;white-space:nowrap}
+  th,td{border:1px solid var(--line);padding:7px 9px;vertical-align:top}
+  td.n{white-space:nowrap}
+  tr.self td{color:var(--muted);font-style:italic}
+  .contacts{display:grid;gap:8px;margin-bottom:12px}
+  .contacts div{background:var(--tint);border-left:3px solid var(--gold);padding:8px 12px;border-radius:2px}
+  .contacts span{display:block;font-size:12px;color:var(--muted)}
+  .note{margin:8px 20px 16px;background:var(--gold-soft);border:1px solid #E5D3A0;padding:10px 12px;font-size:13.5px;border-radius:3px}
+  .foot{background:var(--green);color:#CFE0DA;text-align:center;font-size:12.5px;padding:12px 16px}
+  .state{max-width:520px;margin:12vh auto 0;background:#fff;border-radius:6px;padding:28px 24px;text-align:center;
+         box-shadow:0 1px 3px rgba(14,77,62,.18)}
+  .state b{display:block;font-size:18px;color:var(--green);margin-bottom:6px}
+  @media (max-width:600px){
+    body{padding:0;font-size:14px}
+    .sheet{border-radius:0}
+    .head{padding:14px 16px}
+    .co .name{font-size:17px}
+    section{padding:14px 16px 2px}
+    .meta div{padding:9px 16px}
+    .note{margin:8px 16px 14px}
+    table{font-size:13px}
   }
-  .sheet{
-    max-width:880px;
-    margin:0 auto;
-    background:var(--paper);
-    border-radius:10px;
-    overflow:hidden;
-    box-shadow:0 1px 3px rgba(11,83,69,.08), 0 12px 32px rgba(11,83,69,.10);
-    border:1px solid var(--line);
-  }
-
-  /* header */
-  .head{
-    display:flex;
-    align-items:center;
-    gap:18px;
-    padding:22px 26px;
-    background:linear-gradient(135deg,var(--deep) 0%,var(--deep-dark) 100%);
-    color:#fff;
-  }
-  .head .mark{
-    width:54px;height:54px;border-radius:50%;
-    background:#fff;
-    display:flex;align-items:center;justify-content:center;
-    flex:none;
-    font-size:26px;
-  }
-  .head .co{flex:1;min-width:0;}
-  .head .co .name{font-size:19px;font-weight:700;letter-spacing:.2px;}
-  .head .co .tag{font-size:11.5px;color:var(--gold-light);letter-spacing:.5px;margin-top:2px;}
-  .head .contact{text-align:right;font-size:12px;line-height:1.55;color:#eef4f1;flex:none;}
-  .head .contact b{color:var(--gold-light);font-weight:600;}
-
-  .titlebar{
-    background:linear-gradient(90deg,var(--gold) 0%,var(--gold-light) 100%);
-    color:var(--deep-dark);
-    text-align:center;
-    font-weight:700;
-    font-size:14px;
-    letter-spacing:3px;
-    padding:9px 10px;
-  }
-
-  .meta{
-    display:flex;flex-wrap:wrap;gap:6px 26px;
-    padding:14px 26px 4px;
-    font-size:13px;
-  }
-  .meta span{margin:0 26px 6px 0;display:inline-block;}
-  .meta span b{color:var(--deep);}
-
-  .section{margin:16px 26px 0;}
-  .section .stitle{
-    background:var(--deep);
-    color:#fff;
-    font-size:12.5px;
-    font-weight:700;
-    letter-spacing:.5px;
-    padding:7px 12px;
-    border-radius:6px 6px 0 0;
-  }
-  table{width:100%;border-collapse:collapse;font-size:12.5px;}
-  table th{
-    background:var(--row);
-    color:var(--deep);
-    text-align:left;
-    font-size:11.5px;
-    font-weight:700;
-    padding:7px 10px;
-    border:1px solid var(--line);
-  }
-  table td{
-    padding:7px 10px;
-    border:1px solid var(--line);
-    background:#fff;
-  }
-  table tbody tr:nth-child(even) td{background:var(--row2);}
-
-  .contacts{border:1px solid var(--line);border-top:none;border-radius:0 0 6px 6px;overflow:hidden;}
-  .contacts .row{display:flex;border-bottom:1px solid var(--line);font-size:12.5px;}
-  .contacts .row:last-child{border-bottom:none;}
-  .contacts .label{
-    width:190px;flex:none;background:var(--row2);
-    color:var(--deep);font-weight:700;
-    padding:9px 12px;
-  }
-  .contacts .val{padding:9px 12px;background:#fff;flex:1;}
-
-  .qr-block{
-    display:flex;align-items:center;gap:18px;
-    margin:18px 26px 0;
-    border:1px solid var(--line);border-radius:8px;
-    padding:14px;
-    background:#fff;
-  }
-  .qr-block .badge{
-    width:76px;height:76px;flex:none;border-radius:8px;
-    background:var(--row2);
-    display:flex;align-items:center;justify-content:center;
-    font-size:34px;
-  }
-  .qr-block .txt{font-size:12px;color:var(--ink-soft);line-height:1.5;}
-  .qr-block .txt b{color:var(--deep);}
-
-  .notice{
-    margin:16px 26px 0;
-    background:#fdf6e3;
-    border:1px solid var(--gold);
-    border-radius:6px;
-    padding:11px 14px;
-    font-size:12.5px;
-    line-height:1.6;
-  }
-  .notice b{color:var(--deep-dark);}
-
-  .foot{
-    margin-top:22px;
-    background:var(--deep);
-    color:#eef4f1;
-    text-align:center;
-    font-size:11.5px;
-    padding:9px;
-  }
-
-  .state{
-    max-width:520px;margin:80px auto;text-align:center;
-    color:var(--ink-soft);font-size:14px;
-  }
-  .state b{display:block;color:var(--deep);font-size:17px;margin-bottom:6px;}
-
-  @media (max-width:640px){
-    .head{flex-wrap:wrap;}
-    .head .contact{text-align:left;}
-    table{font-size:11.5px;}
-    .contacts .label{width:130px;}
-  }
-  @media print{
-    body{background:#fff;padding:0;}
-    .sheet{box-shadow:none;border:none;}
-  }
+  @media print{body{background:#fff;padding:0}.sheet{box-shadow:none}}
 </style>
 </head>
 <body>
-
-<div id="app">
-  <div class="state">Loading voucher…</div>
-</div>
+<div id="app"><div class="state">Loading voucher…</div></div>
 
 <script>
-async function loadVoucher(){
-  const params = new URLSearchParams(window.location.search);
-  const id = params.get('id');
-  const app = document.getElementById('app');
+(async function () {
+  const app = document.getElementById("app");
+  const id = (new URLSearchParams(location.search).get("id") || "").trim();
 
-  if(!id){
-    app.innerHTML = `<div class="state"><b>No voucher specified</b>Add ?id=VOUCHER-NUMBER to the page address.</div>`;
+  if (!/^[A-Za-z0-9-]{4,40}$/.test(id)) {
+    app.innerHTML = state("No voucher selected", "Please scan the QR code printed on your voucher.");
     return;
   }
 
-  let data;
-  try{
-    const res = await fetch(`data/${id}.json`, {cache:"no-store"});
-    if(!res.ok) throw new Error("not found");
-    data = await res.json();
-  }catch(e){
-    app.innerHTML = `<div class="state"><b>Voucher not found</b>We couldn't find a voucher with number "${escapeHtml(id)}". Please check the number or contact the office.</div>`;
+  let d;
+  try {
+    const res = await fetch("data/" + encodeURIComponent(id) + ".json", {cache: "no-store"});
+    if (!res.ok) throw new Error("not found");
+    d = await res.json();
+  } catch (e) {
+    app.innerHTML = state("Voucher not found",
+      "No voucher matches this code. Please check the QR code or contact the issuing office.");
     return;
   }
 
-  document.title = `Voucher ${data.voucherNo} — Bukhari Travel & Tourism`;
-  app.innerHTML = render(data);
+  const company = d.company || {};
+  document.title = "Voucher " + (d.voucherNo || id) + (company.name ? " — " + company.name : "");
+  app.innerHTML = render(d);
+})();
+
+function esc(v) {
+  const s = (v === null || v === undefined) ? "" : String(v).trim();
+  return s ? s.replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m])) : "-";
+}
+function state(title, text) {
+  return '<div class="state"><b>' + esc(title) + '</b>' + esc(text) + '</div>';
+}
+function table(headers, rows, rowClass) {
+  if (!rows.length) return "";
+  const th = headers.map(h => "<th>" + esc(h) + "</th>").join("");
+  const tr = rows.map((r, i) => '<tr' + (rowClass && rowClass(i) ? ' class="' + rowClass(i) + '"' : '') + '>' +
+    r.map(c => '<td' + (typeof c === "number" ? ' class="n"' : '') + '>' + esc(c) + '</td>').join("") + '</tr>').join("");
+  return '<div class="scroll"><table><tr>' + th + '</tr>' + tr + '</table></div>';
+}
+function section(title, inner) {
+  return inner ? '<section><h2>' + esc(title) + '</h2>' + inner + '</section>' : "";
+}
+function parseDate(s) {
+  const t = Date.parse(String(s || "").replace(/(\d)(st|nd|rd|th)/, "$1"));
+  return isNaN(t) ? null : new Date(t);
 }
 
-function escapeHtml(s){
-  return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+function render(d) {
+  const c = d.company || {};
+  const pax = d.passengers || [], fl = d.flights || [], ho = d.hotels || [], tr = d.transport || [];
+
+  // trip status from the last hotel check-out (or last flight)
+  const end = parseDate(ho.length ? ho[ho.length - 1].checkout : (fl.length ? fl[fl.length - 1].date : ""));
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const past = end && end < today;
+  const tick = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6"/></svg>';
+  const status = past
+    ? '<div class="status past">' + tick + 'Voucher on record — this trip was completed on ' + esc(fmt(end)) + '.</div>'
+    : '<div class="status">' + tick + 'Voucher on record' + (c.name ? ' with ' + esc(c.name) : '') + '.</div>';
+
+  const metaItems = [["Voucher No", d.voucherNo], ["Booking Ref (PNR)", d.pnr], ["Issue Date", d.issueDate], ["Package", d.package]]
+    .filter(m => m[1]).map(m => '<div><span>' + esc(m[0]) + '</span><b>' + esc(m[1]) + '</b></div>').join("");
+
+  const paxT = table(["#", "Passenger Name", "Passport No.", "Nationality", "Visa Type", "Visa No."],
+    pax.map((p, i) => [i + 1, p.name, p.passport, p.nationality, p.visaType, p.visaNo]));
+
+  const flT = table(["Sector", "Airline / Flight", "Date", "Departure", "Arrival", "Baggage", "Class"],
+    fl.map(f => [f.sector, f.airline, f.date, f.departure, f.arrival, f.baggage, f.class]));
+
+  const isSelf = h => /self/i.test(h.city || "") || /self arranged/i.test(h.hotel || "");
+  const hasHcn = ho.some(h => h.hcn || h.ref);
+  const hoHead = ["City", "Hotel", "Check-in", "Check-out", "Nights", "Room", "Meals"].concat(hasHcn ? ["HCN"] : []);
+  const hoT = table(hoHead,
+    ho.map(h => {
+      const self = isSelf(h);
+      const row = [self ? "-" : h.city, self ? "Self-arranged by passenger" : h.hotel, h.checkin, h.checkout,
+                   Number(h.nights) || h.nights, self ? "" : h.roomType, self ? "" : h.meals];
+      if (hasHcn) row.push(self ? "" : (h.hcn || h.ref));
+      return row;
+    }),
+    i => isSelf(ho[i]) ? "self" : "");
+
+  const trT = table(["Route", "Date", "Vehicle", "Remarks"],
+    tr.map(t => t.route !== undefined ? [t.route, t.date, t.vehicle, t.remarks]
+                                      : [t.description, t.date, t.vehicle, ""]));
+
+  const em = d.emergency || {};
+  const contacts = [["Pakistan office", em.pakistan], ["Saudi Arabia representative", em.saudi]]
+    .filter(x => x[1]).map(x => '<div><span>' + esc(x[0]) + '</span>' + esc(x[1]) + '</div>').join("");
+
+  const footBits = [c.name, c.iata ? "IATA: " + c.iata : "", c.phone ? "Tel: " + c.phone : ""].filter(Boolean);
+
+  return '<div class="sheet">' +
+    '<div class="head"><div class="seal"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="7" width="14" height="12" fill="#151515"/><rect x="5" y="10" width="14" height="2" fill="#C9A13B"/></svg></div>' +
+      '<div class="co"><div class="name">' + esc(c.name || "Umrah Travel Voucher") + '</div>' +
+      (c.tagline ? '<div class="tag">' + esc(c.tagline) + '</div>' : '') +
+      (c.address ? '<div class="tag" style="color:#CFE0DA;font-weight:400">' + esc(c.address) + '</div>' : '') + '</div></div>' +
+    '<div class="title">UMRAH TRAVEL VOUCHER</div>' +
+    status +
+    '<div class="meta">' + metaItems + '</div>' +
+    section("Passenger details", paxT) +
+    section("Flight details", flT) +
+    section("Hotel / accommodation", hoT) +
+    section("Transportation", trT) +
+    section("Emergency contacts", contacts ? '<div class="contacts">' + contacts + '</div>' : "") +
+    '<div class="note"><b>Important:</b> Passengers must carry their passport and Umrah visa at all times. ' +
+      'Report at the airport at least 4 hours before departure.' +
+      (d.specialInstructions ? '<br><b>Special instructions:</b> ' + esc(d.specialInstructions) : '') + '</div>' +
+    '<div class="foot">' + footBits.map(esc).join(" &nbsp;|&nbsp; ") + '</div>' +
+  '</div>';
 }
-
-function row(cells){
-  return `<tr>${cells.map(c=>`<td>${escapeHtml(c ?? "-")}</td>`).join("")}</tr>`;
+function fmt(dt) {
+  return dt.toLocaleDateString("en-GB", {day: "2-digit", month: "short", year: "numeric"});
 }
-
-function render(d){
-  const passengerRows = d.passengers.map((p,i)=> row([
-    i+1, p.name, p.passport, p.nationality || "Pakistani", p.visaType || "Umrah", p.visaNo || "-"
-  ])).join("");
-
-  const flightRows = d.flights.map(f => row([
-    f.sector, f.airline, f.date, f.departure, f.arrival, f.baggage, f.class || "Economy"
-  ])).join("");
-
-  const hotelRows = d.hotels.map(h => row([
-    h.city, h.hotel, h.checkin, h.checkout, h.nights, h.roomType || "Quad", h.meals || "R/O", h.distance || "-"
-  ])).join("");
-
-  const transportRows = (d.transport || []).map(t => row([
-    t.date, t.vehicle || "Private A/C Coaster", t.description
-  ])).join("");
-
-  return `
-  <div class="sheet">
-    <div class="head">
-      <div class="mark">🕋</div>
-      <div class="co">
-        <div class="name">${escapeHtml(d.company?.name || "Bukhari Travel & Tourism Services")}</div>
-        <div class="tag">${escapeHtml(d.company?.tagline || "HAJJ • UMRAH • ZIYARAT • TICKETING")}</div>
-      </div>
-      <div class="contact">
-        <div><b>IATA:</b> ${escapeHtml(d.company?.iata || "27300136")}</div>
-        <div>${escapeHtml(d.company?.address || "Shop No. 1, Safety Pride, Dr. Daud Pota Road, Near Cantt Station, Karachi")}</div>
-        <div><b>Tel:</b> ${escapeHtml(d.company?.phone || "0333-2324194")}</div>
-      </div>
-    </div>
-
-    <div class="titlebar">UMRAH TRAVEL VOUCHER</div>
-
-    <div class="meta">
-      <span><b>Voucher No:</b> ${escapeHtml(d.voucherNo)}</span>
-      <span><b>Booking Ref (PNR):</b> ${escapeHtml(d.pnr)}</span>
-      <span><b>Issue Date:</b> ${escapeHtml(d.issueDate)}</span>
-      <span><b>Package:</b> ${escapeHtml(d.package)}</span>
-    </div>
-
-    <div class="section">
-      <div class="stitle">PASSENGER DETAILS</div>
-      <table>
-        <thead><tr><th>#</th><th>Passenger Name</th><th>Passport No.</th><th>Nationality</th><th>Visa Type</th><th>Visa No.</th></tr></thead>
-        <tbody>${passengerRows}</tbody>
-      </table>
-    </div>
-
-    <div class="section">
-      <div class="stitle">FLIGHT DETAILS</div>
-      <table>
-        <thead><tr><th>Sector</th><th>Airline / Flight</th><th>Date</th><th>Departure</th><th>Arrival</th><th>Baggage</th><th>Class</th></tr></thead>
-        <tbody>${flightRows}</tbody>
-      </table>
-    </div>
-
-    <div class="section">
-      <div class="stitle">HOTEL / ACCOMMODATION DETAILS</div>
-      <table>
-        <thead><tr><th>City</th><th>Hotel</th><th>Check-in</th><th>Check-out</th><th>Nights</th><th>Room Type</th><th>Meals</th><th>Distance from Haram</th></tr></thead>
-        <tbody>${hotelRows}</tbody>
-      </table>
-    </div>
-
-    ${transportRows ? `
-    <div class="section">
-      <div class="stitle">TRANSPORTATION DETAILS</div>
-      <table>
-        <thead><tr><th>Date</th><th>Vehicle</th><th>Description</th></tr></thead>
-        <tbody>${transportRows}</tbody>
-      </table>
-    </div>` : ``}
-
-    <div class="section">
-      <div class="stitle">EMERGENCY / LOCAL CONTACTS</div>
-      <div class="contacts">
-        <div class="row"><div class="label">Pakistan Office</div><div class="val">${escapeHtml(d.emergency?.pakistan || d.company?.address + " | Tel: " + d.company?.phone)}</div></div>
-        <div class="row"><div class="label">Saudi Arabia Representative</div><div class="val">${escapeHtml(d.emergency?.saudi || "-")}</div></div>
-      </div>
-    </div>
-
-    <div class="qr-block">
-      <div class="badge">✓</div>
-      <div class="txt"><b>Verified voucher.</b> This page was opened by scanning the official QR code for ${escapeHtml(d.voucherNo)}. Details shown here always match the office record.</div>
-    </div>
-
-    <div class="notice">
-      <b>Important:</b> Please keep your passport and Umrah visa with you at all times. Report at the airport at least 4 hours before departure.
-      ${d.specialInstructions ? `<br><b>Special instructions:</b> ${escapeHtml(d.specialInstructions)}` : ``}
-    </div>
-
-    <div class="foot">
-      ${escapeHtml(d.company?.name || "Bukhari Travel & Tourism Services")}
-      &nbsp;|&nbsp; IATA: ${escapeHtml(d.company?.iata || "27300136")}
-      &nbsp;|&nbsp; Tel: ${escapeHtml(d.company?.phone || "0333-2324194")}
-    </div>
-  </div>
-  `;
-}
-
-loadVoucher();
 </script>
-
 </body>
 </html>
