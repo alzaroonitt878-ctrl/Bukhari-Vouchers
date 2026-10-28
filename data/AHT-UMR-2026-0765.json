@@ -22,11 +22,11 @@
   "flights": [
     {
       "sector": "Karachi (KHI) → Jeddah (JED)",
-      "airline": "SAUDIA — SV 705",
+      "airline": "FLYADEAL — F3 830",
       "date": "29 Oct 2026",
-      "departure": "03:15",
-      "arrival": "05:55",
-      "baggage": "2 pc",
+      "departure": "08:40",
+      "arrival": "11:30",
+      "baggage": "20KG",
       "class": "Economy"
     },
     {
@@ -42,10 +42,10 @@
   "hotels": [
     {
       "city": "Makkah",
-      "hotel": "DAR HASSAN",
       "checkin": "29 Oct 2026",
       "checkout": "05 Nov 2026",
       "nights": 7,
+      "hotel": "DAR HASSAN",
       "roomType": "SHARING",
       "meals": "R/O",
       "hcn": "",
@@ -54,10 +54,10 @@
     },
     {
       "city": "Madinah",
-      "hotel": "Al Eiman Royal",
       "checkin": "05 Nov 2026",
       "checkout": "12 Nov 2026",
       "nights": 7,
+      "hotel": "Al Eiman Royal",
       "roomType": "SHARING",
       "meals": "R/O",
       "hcn": "",
@@ -66,10 +66,10 @@
     },
     {
       "city": "Makkah",
-      "hotel": "DAR HASSAN",
       "checkin": "12 Nov 2026",
       "checkout": "19 Nov 2026",
       "nights": 7,
+      "hotel": "DAR HASSAN",
       "roomType": "SHARING",
       "meals": "R/O",
       "hcn": "",
