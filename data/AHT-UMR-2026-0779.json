@@ -45,11 +45,11 @@
     },
     {
       "sector": "Madinah (MED) → Karachi (KHI)",
-      "airline": "PIA — PK 744",
+      "airline": "FLYNAS — XY 805",
       "date": "23 Nov 2026",
-      "departure": "00:15",
-      "arrival": "06:05",
-      "baggage": "35kg",
+      "departure": "20:30",
+      "arrival": "02:15",
+      "baggage": "",
       "class": "Economy"
     }
   ],
