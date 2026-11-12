@@ -111,21 +111,21 @@
     {
       "route": "Madinah Airport → Madinah Hotel",
       "date": "19 Nov 2026",
-      "vehicle": "Private Hiace",
-      "remarks": "Meet and assist at airport +966 56 236 7710 Waqas Call only no whatsapp",
-      "description": "Madinah Airport → Madinah Hotel — Meet and assist at airport +966 56 236 7710 Waqas Call only no whatsapp"
+      "vehicle": "Shared Coaster",
+      "remarks": "Meet and assist at airport",
+      "description": "Madinah Airport → Madinah Hotel — Meet and assist at airport"
     },
     {
       "route": "Madinah Hotel → Makkah Hotel",
       "date": "22 Nov 2026",
-      "vehicle": "Private Hiace",
-      "remarks": "Including Ziyarat of Madinah +966 574 159 159 Bilal Khan",
-      "description": "Madinah Hotel → Makkah Hotel — Including Ziyarat of Madinah +966 574 159 159 Bilal Khan"
+      "vehicle": "Shared Coaster",
+      "remarks": "Including Ziyarat of Madinah",
+      "description": "Madinah Hotel → Makkah Hotel — Including Ziyarat of Madinah"
     },
     {
       "route": "Makkah Hotel → Jeddah Airport",
       "date": "26 Nov 2026",
-      "vehicle": "Private Hiace",
+      "vehicle": "Shared Coaster",
       "remarks": "Airport Drop Off",
       "description": "Makkah Hotel → Jeddah Airport — Airport Drop Off"
     }
