@@ -1,0 +1,89 @@
+{
+  "voucherNo": "AHT-UMR-2026-0808",
+  "pnr": "",
+  "issueDate": "13 November 2026",
+  "package": "20 Days Umrah (Sharing)",
+  "company": {
+    "name": "Allahoo Travels & Tours",
+    "tagline": "HAJJ • UMRAH • ZIYARAT • TICKETING",
+    "address": "",
+    "phone": "0334-7789786",
+    "iata": ""
+  },
+  "passengers": [
+    {
+      "name": "MUHAMMAD SALEH MUGHERI",
+      "passport": "BG*****43",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": ""
+    }
+  ],
+  "flights": [
+    {
+      "sector": "Karachi (KHI) → Dammam (DMM)",
+      "airline": "FLYNAS — XY 901",
+      "date": "14 Nov 2026",
+      "departure": "02:00",
+      "arrival": "03:15",
+      "baggage": "20kg",
+      "class": "Economy"
+    },
+    {
+      "sector": "Jeddah (JED) → Karachi (KHI)",
+      "airline": "FLYNAS — XY 637",
+      "date": "03 Dec 2026",
+      "departure": "06:30",
+      "arrival": "12:25",
+      "baggage": "20kg",
+      "class": "Economy"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Madinah",
+      "hotel": "Al Eiman Royal",
+      "checkin": "14 Nov 2026",
+      "checkout": "23 Nov 2026",
+      "nights": 9,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    },
+    {
+      "city": "Makkah",
+      "hotel": "DAR HASSAN",
+      "checkin": "23 Nov 2026",
+      "checkout": "03 Dec 2026",
+      "nights": 10,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    }
+  ],
+  "transport": [
+    {
+      "route": "Madinah Hotel → Makkah Hotel",
+      "date": "23 Nov 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Including Ziyarat of Madinah",
+      "description": "Madinah Hotel → Makkah Hotel — Including Ziyarat of Madinah"
+    },
+    {
+      "route": "Makkah Hotel → Jeddah Airport",
+      "date": "03 Dec 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Airport Drop Off",
+      "description": "Makkah Hotel → Jeddah Airport — Airport Drop Off"
+    }
+  ],
+  "emergency": {
+    "pakistan": "Allahoo Travels & Tours — Tel: 0334-7789786",
+    "saudi": "Mr. Javed Fazle Rabbi, +966 54 190 2152"
+  },
+  "specialInstructions": ""
+}
