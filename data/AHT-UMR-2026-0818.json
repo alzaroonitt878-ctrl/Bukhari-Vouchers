@@ -1,6 +1,6 @@
 {
   "voucherNo": "AHT-UMR-2026-0818",
-  "pnr": "S5SL7Y",
+  "pnr": "S7YL7Y",
   "issueDate": "19 November 2026",
   "package": "16 Days Umrah (Sharing)",
   "company": {
@@ -35,7 +35,7 @@
       "date": "05 Dec 2026",
       "departure": "18:10",
       "arrival": "21:55",
-      "baggage": "25kg",
+      "baggage": "35kg",
       "class": "Economy"
     }
   ],
@@ -82,8 +82,8 @@
       "route": "Jeddah Airport → Makkah Hotel",
       "date": "20 Nov 2026",
       "vehicle": "Shared Coaster",
-      "remarks": "Meet and assist at airport",
-      "description": "Jeddah Airport → Makkah Hotel — Meet and assist at airport"
+      "remarks": "Meet and assist at airport +966 59 348 6822 Aftab",
+      "description": "Jeddah Airport → Makkah Hotel — Meet and assist at airport +966 59 348 6822 Aftab"
     },
     {
       "route": "Makkah Hotel → Madinah Hotel",
