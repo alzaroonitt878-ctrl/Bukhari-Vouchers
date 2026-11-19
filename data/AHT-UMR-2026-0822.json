@@ -1,0 +1,131 @@
+{
+  "voucherNo": "AHT-UMR-2026-0822",
+  "pnr": "HY9A9J",
+  "issueDate": "19 November 2026",
+  "package": "16 Days Umrah (Sharing)",
+  "company": {
+    "name": "Allahoo Travels & Tours",
+    "tagline": "HAJJ • UMRAH • ZIYARAT • TICKETING",
+    "address": "",
+    "phone": "0334-7789786",
+    "iata": ""
+  },
+  "passengers": [
+    {
+      "name": "RAFIQUE AHMED SHAHANI",
+      "passport": "VY*****51",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": ""
+    },
+    {
+      "name": "IMRAN ALI",
+      "passport": "GJ*****21",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": ""
+    },
+    {
+      "name": "MIR MUHAMMAD",
+      "passport": "CV*****02",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": ""
+    },
+    {
+      "name": "BUX ALI",
+      "passport": "ZV*****31",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": ""
+    },
+    {
+      "name": "ABDUL AZIZ",
+      "passport": "HM*****32",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": ""
+    },
+    {
+      "name": "MUHAMMAD SALEH MUGHERI",
+      "passport": "BG*****43",
+      "nationality": "Pakistani",
+      "visaType": "Umrah",
+      "visaNo": ""
+    }
+  ],
+  "flights": [
+    {
+      "sector": "Karachi (KHI) → Madinah (MED)",
+      "airline": "FLYDUBAI — FZ 897",
+      "date": "20 Nov 2026",
+      "departure": "12:55",
+      "arrival": "15:00",
+      "baggage": "30kg",
+      "class": "Economy"
+    },
+    {
+      "sector": "Jeddah (JED) → Karachi (KHI)",
+      "airline": "FLYDUBAI — FZ 832",
+      "date": "05 Dec 2026",
+      "departure": "07:30",
+      "arrival": "11:20",
+      "baggage": "30kg",
+      "class": "Economy"
+    }
+  ],
+  "hotels": [
+    {
+      "city": "Madinah",
+      "hotel": "Al Eiman Royal",
+      "checkin": "20 Nov 2026",
+      "checkout": "28 Nov 2026",
+      "nights": 8,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    },
+    {
+      "city": "Makkah",
+      "hotel": "DAR HASSAN",
+      "checkin": "28 Nov 2026",
+      "checkout": "05 Dec 2026",
+      "nights": 7,
+      "roomType": "SHARING",
+      "meals": "R/O",
+      "hcn": "",
+      "ref": "",
+      "distance": ""
+    }
+  ],
+  "transport": [
+    {
+      "route": "Madinah Airport → Madinah Hotel",
+      "date": "20 Nov 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Meet and assist at airport",
+      "description": "Madinah Airport → Madinah Hotel — Meet and assist at airport"
+    },
+    {
+      "route": "Madinah Hotel → Makkah Hotel",
+      "date": "28 Nov 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Including Ziyarat of Madinah",
+      "description": "Madinah Hotel → Makkah Hotel — Including Ziyarat of Madinah"
+    },
+    {
+      "route": "Makkah Hotel → Jeddah Airport",
+      "date": "05 Dec 2026",
+      "vehicle": "Shared Coaster",
+      "remarks": "Airport Drop Off",
+      "description": "Makkah Hotel → Jeddah Airport — Airport Drop Off"
+    }
+  ],
+  "emergency": {
+    "pakistan": "Allahoo Travels & Tours — Tel: 0334-7789786",
+    "saudi": "Mr. Javed Fazle Rabbi, +966 54 190 2152"
+  },
+  "specialInstructions": ""
+}
